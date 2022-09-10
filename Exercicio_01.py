@@ -2,11 +2,11 @@
 
 
 def check(number):
-    return number / 3
+    return number
 
 
 n = int(input('Type a number: '))
-if check(n):
+if check(n / 3):
     print("Yes")
 else:
     print("No")
