@@ -1,4 +1,4 @@
-# Crietrue=Noneama que verifica se um número inteiro informado pelo usuário é divisível por 3.
+# Crie um programa que verifica se um número inteiro informado pelo usuário é divisível por 3.
 
 
 def check(number):
