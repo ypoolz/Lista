@@ -1,4 +1,4 @@
-## Lista de exercícios para desenvolver habilidades em python
+## Lista de exercícios para desenvolver habilidades em python 
 
 ## Stacks :heavy_check_mark:
 
