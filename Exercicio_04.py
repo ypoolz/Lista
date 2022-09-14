@@ -1,5 +1,4 @@
-num = int(input("Digite o último número a imprimir:"))
 x = 1
-while x <= num:
+while x <= 50:
     print(x)
     x = x + 2
