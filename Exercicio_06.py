@@ -1,3 +1,6 @@
+# Escreva um programa que leia um conjunto de 10 números inteiros positivos. Seu programa deve determinar e imprimir
+# o maior deles. Use o laço FOR.
+
 x = int(input('Digite um número inteiro: '))
 maior = x
 

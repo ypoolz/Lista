@@ -1,4 +1,5 @@
-#  Faça uma função que informe se o número recebido como parâmetro é primo ou não. 
+#  Faça uma função que informe se o número recebido como parâmetro é primo ou não.
+
 n = int(input("Digite um número:"))
 if n < 0:
     print("Número inválido. Digite apenas valores positivos")
@@ -11,7 +12,7 @@ else:
         print(f"{n} não é primo, pois 2 é o único número par primo.")
     else:
         x = 3
-        while(x < n):
+        while x < n:
             if n % x == 0:
                 break
             x = x + 2
