@@ -2,9 +2,12 @@
 # fornece como saída a soma de todos os números inteiros positivos menores ou iguais a N.
 # Exemplo: se N for 3, a função deve retornar 6, que é a soma de 1 + 2 + 3
 
-numero = int(input('informe um numero: '))
-somatoria = 0
-while (numero > 0):
-    somatoria = somatoria + numero
-    numero = numero - 1
-print('o resultado da somatoria é: ', somatoria)
+def somatoria(n):
+    soma = 0
+    for i in range (n,0,-1):
+        soma += i
+    return soma
+
+num = int(input('Digite um numero: '))
+
+print(somatoria(num))
