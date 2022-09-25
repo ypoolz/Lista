@@ -4,13 +4,17 @@
 
 import math
 
-raio1 = float(input('informe o raio do circulo1: '))
-area1 = math.pi * (raio1 ** 2)
-print('a area circulo1 é de: ', area1)
+def area (raio):
+  area = math.pi * raio**2
+  return area
 
-raio2 = float(input('informe o raio do circulo2: '))
-area2 = math.pi * (raio2 ** 2)
-print('a area circulo2 é de: ', area2)
 
-calota = area1 - area2
-print('a area da colota das duas curcunferencias é: ', calota)
+r1 = float(input('informe o raio do 1º circulo: '))
+print ('a circunferencia circulo é de: ', int(area(r1)))
+
+r2 = float(input('informe o raio do 2º circulo: '))
+print ('a circunferencia circulo é de: ', int(area(r2)))
+
+z = area(r1)-area(r2)
+
+print('a area correspondente a colota das duas curcunferencias concentricas é: ', z)
